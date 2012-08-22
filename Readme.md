@@ -1,7 +1,8 @@
 
 # npm-search
 
-  Faster npm search:
+  Faster npm search using [reds](http://github.com/visionmedia/reds) and
+  dominictarr's [JSONStream](https://github.com/dominictarr/JSONStream):
 
 ```
 $ time npm search flow control
