@@ -12,7 +12,7 @@ $ npm install npm-search -g
 ## Usage:
 
 ```
-
+  
 Usage: npm-search <query>
 
 Options:
@@ -23,6 +23,19 @@ Options:
   -V, --version  output the version number
 
 ```
+
+## Examples
+
+  Regular search:
+  ![](http://f.cl.ly/items/1X05043h0Z2H3L0M423D/Screen%20Shot%202012-08-21%20at%206.22.59%20PM.png)
+
+  Verbose search:
+
+ ![](http://f.cl.ly/items/2e3q0v2u3n2L1w342444/Screen%20Shot%202012-08-21%20at%206.23.05%20PM.png)
+
+  Raw JSON:
+
+ ![](http://f.cl.ly/items/3D0U3t2t08392P0t1m13/Screen%20Shot%202012-08-21%20at%206.23.15%20PM.png)
 
 ## License 
 
