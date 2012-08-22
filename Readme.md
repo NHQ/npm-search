@@ -1,7 +1,15 @@
 
 # npm-search
 
-  Faster npm search
+  Faster npm search:
+
+```
+$ time npm search flow control
+real	0m16.572s
+
+$ time npm-search flow control
+real	0m0.519s
+```
 
 ## Installation
 
