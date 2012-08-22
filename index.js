@@ -84,7 +84,7 @@ function truncate(str) {
 
 function regular(pkg) {
   var desc = highlight(truncate(pkg.description || 'no description'));
-  printf(process.stdout, '  \033[36m%15s\033[0m : \033[90m%s\033[m\n', pkg.name, desc);
+  printf(process.stdout, '  \033[36m%20s\033[0m : \033[90m%s\033[m\n', pkg.name, desc);
 }
 
 /**
