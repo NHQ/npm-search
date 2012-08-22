@@ -3,6 +3,27 @@
 
   Faster npm search
 
+## Installation
+
+```
+$ npm install npm-search -g
+```
+
+## Usage:
+
+```
+
+Usage: npm-search <query>
+
+Options:
+
+  -h, --help     output usage information
+  -v, --verbose  output verbose package information
+  -r, --raw      output raw json
+  -V, --version  output the version number
+
+```
+
 ## License 
 
 (The MIT License)
