@@ -95,6 +95,18 @@ function verbose(pkg) {
   var desc = highlight(wrap(pkg.description || 'no description'));
   console.log('  \033[36m%s\033[0m', pkg.name);
   if (pkg.author) console.log('  by \033[90m%s <%s>\033[0m', pkg.author.name, pkg.author.email);
+  if (pkg.repository) console.log('  at \033[90m%s\033[0m', repo(pkg.repository.url));
   console.log('  %s', desc.replace(/\n/g, '\n  '));
   console.log();
+}
+
+/**
+ * Format repo.
+ */
+
+function repo(url) {
+  return url
+    .replace(/^(https?|git):\/\//, '')
+    .replace('github.com/', '')
+    .replace('.git', '');
 }
